@@ -2,11 +2,14 @@ name: machine_learning_tutorial
 
 dependencies:
   - python==3.8
+  - cudnn
+  - cudatoolkit
   - pip
   - pip:
     - numpy
     - matplotlib
     - pillow
-    - tensorflow
+    - tensorflow==2.5.0
+    - keras==2.4.3
     - jupyterlab
     - opencv-python==4.5.2.52
