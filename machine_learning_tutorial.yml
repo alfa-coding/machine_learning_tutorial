@@ -1,0 +1,12 @@
+name: machine_learning_tutorial
+
+dependencies:
+  - python==3.8
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - pillow
+    - tensorflow
+    - jupyterlab
+    - opencv-python==4.5.2.52
