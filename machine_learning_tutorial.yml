@@ -2,8 +2,6 @@ name: machine_learning_tutorial
 
 dependencies:
   - python==3.8
-  - cudnn
-  - cudatoolkit
   - pip
   - pip:
     - numpy
